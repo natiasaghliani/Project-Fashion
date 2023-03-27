@@ -142,6 +142,7 @@ header .container .bar {
   height: 745px;
   background-image: url("../images/s-1background.svg");
   background-repeat: no-repeat;
+  margin-bottom: 110px;
   position: relative;
 }
 .s-1 .container .s-1-card {
@@ -205,4 +206,74 @@ header .container .bar {
 }
 .s-1 .container .s-1-card .s-1-button:hover {
   color: palevioletred;
+}
+
+.s-2 .container {
+  max-width: 1133px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 1136px) {
+  .s-2 .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+.s-2 .container .left-images {
+  max-width: 551px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.s-2 .container .left-images .s-2-image1 {
+  margin-bottom: 20px;
+}
+.s-2 .container .left-images .s-2-image2 {
+  margin-bottom: 20px;
+}
+.s-2 .container .left-images .s-2-image3 {
+  margin-bottom: 20px;
+}
+.s-2 .container .right-image {
+  max-width: 552px;
+  width: 100%;
+  height: 574px;
+  background-image: url("../images/s-2-image4.svg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+.s-2 .container .right-image .s-2-button {
+  width: 203px;
+  height: 35px;
+  background-color: #FFFFFF;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22262A;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  border-style: none;
+  cursor: pointer;
+  position: absolute;
+  top: 90%;
+  left: 5%;
+}
+.s-2 .container .right-image .s-2-button:hover {
+  background-color: lightsteelblue;
 }/*# sourceMappingURL=global.css.map */
