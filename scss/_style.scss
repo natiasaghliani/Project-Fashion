@@ -92,17 +92,17 @@ header {
             top: 60%;
             right: 10%;
 
-            @media (max-width: 524px) {
+            @media (max-width: 700px) {
                 max-width: 250px;
                 width: 100%;
-                top: 55%;
-                right: 40%;
+                top: 10%;
+                left: 10%;
             }
 
-            @media (max-width: 434px) {
-                top: 55%;
-                right: 10%;
-            }
+            // @media (max-width: 434px) {
+            //     top: 55%;
+            //     right: 10%;
+            // }
 
             .s-1-h6 {
                 font-size: 18px;
@@ -124,6 +124,10 @@ header {
                 @media (max-width: 524px) {
                     font-size: 50px;
                 }
+
+                @media (max-width: 350px) {
+                    font-size: 35px;
+                }
             }
 
             .s-1-button {
@@ -138,7 +142,7 @@ header {
                 margin-right: 34px;
                 cursor: pointer;
 
-                @media (max-width: 524px) {
+                @media (max-width: 700px) {
                     margin-bottom: 15px;
                 }
 
@@ -165,6 +169,11 @@ header {
             align-items: center;
         }
 
+        @media (max-width: 600px) {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
         .left-images {
             max-width: 551px;
             width: 100%;
@@ -173,16 +182,30 @@ header {
             flex-wrap: wrap;
 
             .s-2-image1 {
+                max-width: 551px;
+                width: 100%;
                 margin-bottom: 20px;
             }
 
             .s-2-image2 {
                 margin-bottom: 20px;
+
+                @media (max-width: 578px) {
+                    max-width: 538px;
+                    width: 100%;
+                }
             }
 
             .s-2-image3 {
                 margin-bottom: 20px;
+
+                @media (max-width: 578px) {
+                    max-width: 538px;
+                    width: 100%;
+                }
             }
+
+            
         }
 
         .right-image {
@@ -191,8 +214,14 @@ header {
             height: 574px;
             background-image: url('../images/s-2-image4.svg');
             background-repeat: no-repeat;
+            background-position: cover;
 
             position: relative;
+
+            @media (max-width: 600px) {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
 
             
 
