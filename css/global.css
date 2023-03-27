@@ -217,6 +217,7 @@ header .container .bar {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 110px;
 }
 @media (max-width: 1136px) {
   .s-2 .container {
@@ -302,4 +303,115 @@ header .container .bar {
 }
 .s-2 .container .right-image .s-2-button:hover {
   background-color: lightsteelblue;
+}
+
+.s-3 .container {
+  max-width: 1138px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 110px;
+}
+.s-3 .container .s-3-title {
+  font-size: 20px;
+  color: #22262A;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.s-3 .container .s-3-title2 {
+  font-size: 15px;
+  color: #22262A;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-bottom: 65px;
+}
+.s-3 .container .cards {
+  max-width: 1138px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 1157px) {
+  .s-3 .container .cards {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+.s-3 .container .cards .card {
+  width: 268px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.s-3 .container .cards .card img {
+  width: 268px;
+}
+.s-3 .container .cards .card .line1 {
+  font-size: 15px;
+  color: #22262A;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-top: 38px;
+  margin-bottom: 10px;
+}
+.s-3 .container .cards .card .line2 {
+  font-size: 15px;
+  color: #22262A;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.s-3 .container .cards .card .price {
+  width: 149px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.s-3 .container .cards .card .price .line3 {
+  font-size: 15px;
+  color: #22262A;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-decoration: line-through;
+}
+.s-3 .container .cards .card .price .line3sale {
+  font-size: 15px;
+  color: #CF2929;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.s-3 .container .cards .card:hover {
+  background-color: rgb(246, 247, 247);
+  cursor: pointer;
 }/*# sourceMappingURL=global.css.map */

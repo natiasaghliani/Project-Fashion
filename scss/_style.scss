@@ -163,6 +163,7 @@ header {
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 110px;
 
         @media (max-width: 1136px) {
             flex-direction: column;
@@ -245,6 +246,110 @@ header {
             .s-2-button:hover {
                 background-color: lightsteelblue;
             }
+        }
+    }
+}
+
+.s-3 {
+    .container {
+        max-width: 1138px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 110px;
+
+        .s-3-title {
+            font-size: 20px;
+            color: #22262A;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .s-3-title2 {
+            font-size: 15px;
+            color: #22262A;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            margin-bottom: 65px;
+        }
+
+        .cards {
+            max-width: 1138px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            @media (max-width: 1157px) {
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                
+            }
+
+            .card {
+                width: 268px;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 50px;
+                margin-left: 20px;
+                margin-right: 20px;
+            
+
+                img {
+                    width: 268px;
+                }
+
+                .line1 {
+                    font-size: 15px;
+                    color: #22262A;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 300;
+                    margin-top: 38px;
+                    margin-bottom: 10px;
+                }
+
+                .line2 {
+                    font-size: 15px;
+                    color: #22262A;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+
+                .price {
+                    width: 149px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .line3 {
+                        font-size: 15px;
+                        color: #22262A;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 400;
+                        margin-bottom: 10px;
+                        text-decoration: line-through;
+                    }
+
+                    .line3sale {
+                        font-size: 15px;
+                        color: #CF2929;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 400;
+                        margin-bottom: 10px;
+                    }
+
+                }
+            }
+
+            .card:hover {
+                background-color: rgb(246, 247, 247);
+                cursor: pointer;
+            }
+            
+
         }
     }
 }
