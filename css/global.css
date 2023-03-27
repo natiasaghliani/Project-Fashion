@@ -196,9 +196,13 @@ header .container .bar {
   color: #FFFFFF;
   border-style: none;
   margin-right: 34px;
+  cursor: pointer;
 }
 @media (max-width: 524px) {
   .s-1 .container .s-1-card .s-1-button {
     margin-bottom: 15px;
   }
+}
+.s-1 .container .s-1-card .s-1-button:hover {
+  color: palevioletred;
 }/*# sourceMappingURL=global.css.map */

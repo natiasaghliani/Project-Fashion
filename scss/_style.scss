@@ -135,11 +135,16 @@ header {
                 color: #FFFFFF;
                 border-style: none;
                 margin-right: 34px;
+                cursor: pointer;
 
                 @media (max-width: 524px) {
                     margin-bottom: 15px;
                 }
 
+            }
+
+            .s-1-button:hover {
+                color: palevioletred;
             }
         }
     }
