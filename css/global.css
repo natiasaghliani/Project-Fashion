@@ -142,8 +142,14 @@ header .container .bar {
   height: 745px;
   background-image: url("../images/s-1background.svg");
   background-repeat: no-repeat;
+  background-position: center;
   margin-bottom: 110px;
   position: relative;
+}
+@media (max-width: 625px) {
+  .s-1 .container {
+    background-position: left;
+  }
 }
 .s-1 .container .s-1-card {
   max-width: 460px;
@@ -617,4 +623,107 @@ header .container .bar {
   background-color: black;
   color: #FFFFFF;
   border-bottom: 1px solid white;
+}
+
+.s-6 .container {
+  max-width: 1593px;
+  width: 100%;
+  height: 745px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url("../images/s-6-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (max-width: 822px) {
+  .s-6 .container {
+    height: 600px;
+    background-position: top right;
+  }
+}
+@media (max-width: 562px) {
+  .s-6 .container {
+    height: 500px;
+  }
+}
+.s-6 .container .s-6-title {
+  max-width: 426px;
+  width: 100%;
+  position: absolute;
+  bottom: 11%;
+  left: 15%;
+}
+@media (max-width: 1232px) {
+  .s-6 .container .s-6-title {
+    top: 13%;
+  }
+}
+@media (max-width: 822px) {
+  .s-6 .container .s-6-title {
+    top: 60%;
+  }
+}
+@media (max-width: 562px) {
+  .s-6 .container .s-6-title {
+    width: 320px;
+  }
+}
+@media (max-width: 423px) {
+  .s-6 .container .s-6-title {
+    width: 240px;
+  }
+}
+@media (max-width: 318px) {
+  .s-6 .container .s-6-title {
+    width: 190px;
+  }
+}
+.s-6 .container .s-6-title .s-6-h4 {
+  font-size: 18px;
+  color: #22262A;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.s-6 .container .s-6-title .s-6-h2 {
+  font-size: 80px;
+  color: #22262A;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+@media (max-width: 562px) {
+  .s-6 .container .s-6-title .s-6-h2 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 423px) {
+  .s-6 .container .s-6-title .s-6-h2 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 318px) {
+  .s-6 .container .s-6-title .s-6-h2 {
+    font-size: 35px;
+  }
+}
+.s-6 .container .s-6-title .s-6-button {
+  width: 214px;
+  height: 35px;
+  background-color: #22262A;
+  color: white;
+  border-style: none;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+@media (max-width: 318px) {
+  .s-6 .container .s-6-title .s-6-button {
+    width: 170px;
+    font-size: 13px;
+  }
+}
+.s-6 .container .s-6-title .s-6-button:hover {
+  color: hotpink;
 }/*# sourceMappingURL=global.css.map */
